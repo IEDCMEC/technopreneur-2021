@@ -4,14 +4,11 @@
     color: #fff;
     background-image: url("../../../Assets/about-bg.png");
     background-repeat: no-repeat;
-    background-size:cover;    
-    padding-top: 15%;
+    background-size:cover;
     display: flex;
-    
-    justify-content: center;
+    padding-top: 10%;
   }
   
- 
 
 .col {
     display: flex;
@@ -21,24 +18,31 @@
 
 .headerContent {
     font-family: Montserrat;
+    /* background-color: yellow; */
+    width: 80%;
+    margin-left: 5%;
 }
 
-.aboutContent {
-    z-index: 1;
-    width: 100%;
+.card {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    border-radius: 20px;
+    width: 60%;
+    background-color: white;
+    filter: drop-shadow(20px 15px 40px black);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .aboutText {
-    width: 70%;
-    margin-bottom: 10%;
-    margin-left: 10%;
-}
-
-.textStyle {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.8;
     font-weight: 400;
+    margin-left: 10%;
 }
 
 .wave-d {
@@ -47,6 +51,13 @@
     height: auto;
 }
 
+
+#card-image {
+    padding-top: 50px;
+    padding-right:10px;
+    padding-left:10px;
+    padding-bottom: 20px;
+}
 
 @media only screen and (max-width: 800px) {
     .about-container {
