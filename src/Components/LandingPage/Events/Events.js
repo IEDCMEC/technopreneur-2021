@@ -2,7 +2,6 @@ import React from "react";
 import logo from "../../../Assets/technohacklogo.png";
 import "./Events.css";
 import { Link } from "react-router-dom";
-
 const Events = () => {
   return (
     <div className="eve-container" id="events">
@@ -21,7 +20,7 @@ const Events = () => {
           flexWrap: "wrap",
         }}
       >
-        <div className="event event-card">
+        <div className="event event-card " data-aos="fade-right" data-aos-duration="1000">
           <img src={logo} alt="" className="eventImage"></img>
           <div className="eventButton">
             <Link to="../../hackathon">
@@ -29,21 +28,14 @@ const Events = () => {
             </Link>
           </div>
         </div>
-        <div className="event event-card">
+        <div className="event event-card" data-aos="fade-up" data-aos-duration="1000">
           <p className="coming-soon"> Coming Soon</p>
 
-          {/* <img src={edit} alt="Coming Soon" className="eventImage"></img> */}
-          {/* <div className="eventButton">
-            <button className="button button1">Register</button>
-          </div> */}
         </div>
 
-        <div className="event event-card">
+        <div className="event event-card" data-aos="fade-left" data-aos-duration="1000">
           <p className="coming-soon"> Coming Soon</p>
-          {/* <img src={edit} alt="Coming Soon" className="eventImage"></img>
-          <div className="eventButton">
-            <button className="button button1">Register</button>
-          </div> */}
+         
         </div>
       </div>
     </div>
