@@ -1,10 +1,11 @@
 import React from 'react';
 import { NavHashLink as Link } from 'react-router-hash-link';
 import './Navbar.css';
-
+import logo from '../../../Assets/logo.png';
 export const Navbar = () => {
   return (
     <div className="space">
+      <div className="logo-div"><img className="heading-logo" src={logo} alt="logo"></img></div>
       <nav className="nav">
         <ul className="navbar-item">
           <li>
