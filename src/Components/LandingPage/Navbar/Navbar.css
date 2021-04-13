@@ -34,7 +34,7 @@
     text-align: center;
 }
 .av-link:hover {
-    font-weight: bold;
+    text-decoration: underline;
 }
 @media screen and (max-width:750px) {
     .navbar {

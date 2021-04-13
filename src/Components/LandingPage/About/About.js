@@ -1,6 +1,8 @@
 import React from 'react';
 import "./About.css";
 import upWaves from '../../../Assets/Events-Wave.png'
+import meclogo from '../../../Assets/mec-logo.png'
+import tielogo from '../../../Assets/tie-logo.png'
 
 export default function AboutComponent(props){
     return(
@@ -20,9 +22,17 @@ export default function AboutComponent(props){
 <br/><br/>
 To successfully emerge from the ashes of the dire conditions of a pandemic stricken world, this year's theme for Technopreneur is to evolve into a better world through disruption, to provide the most innovative solutions for our problems. Our theme hopes to invoke a sense of responsibility and leadership in one's mind in order for them to understand that all our battles can be won through entrepreneurial solutions.
                     </p>
-                </div>
-                
+
+                    <div className="logo-collection">
+                    <div ><img src={meclogo} alt="mec-logo" className="our-logo"></img></div>
+                <div ><img src={tielogo} alt="Tie-logo"className="our-logo"></img></div>
+               
+
             </div>
+                </div>
+               
+            </div>
+            
             </div>
             </div>
             <img src={upWaves} className="wave-d" alt="wavedown"/>

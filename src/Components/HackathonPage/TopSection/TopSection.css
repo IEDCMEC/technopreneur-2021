@@ -37,9 +37,7 @@
 .btn:hover {
     background-color: whitesmoke;
 }
-.hacklogo {
-    max-width: 130%;
-}
+
 .top-img {
     width: 600px;
     padding-right: 10px;
@@ -48,8 +46,8 @@
 }
 
 .hacklogo {
-    width: 150%;
-    height: 100px;
+    width: 130%;
+    height: 100%;
 }
 
 @media (max-width: 600px) {

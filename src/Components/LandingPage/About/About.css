@@ -40,7 +40,18 @@
     line-height: 1.8;
     font-weight: 400;
 }
-
+.logo-collection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 50px;
+    
+}
+.our-logo{
+    padding-right: 50px;
+    width:90%;
+    height: 90%
+}
 .wave-d {
     margin-top: -5%;
     width: 100%;
@@ -52,6 +63,15 @@
     .about-container {
         background-position: center;
         padding-top: 20%;
+    }
+    .logo-collection{
+       
+        flex-direction: column;
+    }
+    .our-logo{
+        width: 80%;
+        height: 80%;
+        padding-bottom: 30px;
     }
 }
 
