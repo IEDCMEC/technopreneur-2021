@@ -61,7 +61,7 @@ export function Landingpage(props) {
           onBeforePageScroll={handleBeforePageChange}
           customPageNumber={currentPage}
           animationTimer={500}
-          animationTimerBuffer={10}
+          animationTimerBuffer={5}
           renderAllPagesOnFirstRender={true}
         >
           <TopSection />    
