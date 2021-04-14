@@ -11,7 +11,7 @@ import { PageCounterContext } from "../Components/LandingPage/PageCounterContext
 
 export function Landingpage(props) {
   const [currentPage, setCurrentPage] = useState(null)
-  const {page, setPage} = useContext(PageCounterContext);
+  const {page} = useContext(PageCounterContext);
 
   useEffect(()=>{
     setCurrentPage(page);

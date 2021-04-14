@@ -1,8 +1,10 @@
+// eslint-disable
 import React, {useContext} from 'react';
 import './Navbar.css';
 import { PageCounterContext } from "../PageCounterContext/PageCounterContext";
 
 export const Navbar = () => {
+  // eslint-disable-next-line
   const {page, setPage} = useContext(PageCounterContext);
 
     return ( 

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import "./About.css";
 import tieLogo from '../../../Assets/tie.png';
 import iedcLogo from '../../../Assets/iedcmec.png';
@@ -6,7 +6,8 @@ import iedcLogo from '../../../Assets/iedcmec.png';
 export default function AboutComponent(props){
 
     return(
-        <div className = "about-container">        
+        <div className = "about-container">  
+        <div>  
                 <div className="headerContent">
                     <p className="headings header">
                         About Us
@@ -17,12 +18,14 @@ export default function AboutComponent(props){
                         To successfully emerge from the ashes of the dire conditions of a pandemic stricken world, this year's theme for Technopreneur is to evolve into a better world through disruption, to provide the most innovative solutions for our problems. Our theme hopes to invoke a sense of responsibility and leadership in one's mind in order for them to understand that all our battles can be won through entrepreneurial solutions.
                     </p>  
                 </div>
+                
+                </div> 
                 <div className="card">
                     {/* <div className="card-container"> */}
-                        <img src={tieLogo} id="card-image"/>
-                        <img src={iedcLogo} id="card-image"/>
+                        <img src={tieLogo} id="card-image" alt="tielogo"/>
+                        <img src={iedcLogo} id="card-image" alt="ideclogo"/>
                     {/* </div> */}
-                </div>
+                </div>   
         </div>
     )
 }
