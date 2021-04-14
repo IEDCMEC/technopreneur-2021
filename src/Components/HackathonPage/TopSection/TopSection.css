@@ -1,124 +1,131 @@
 .content-div {
-    padding-top: 20px;
-    text-align: left;
+  padding-top: 20px;
+  text-align: left;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
 }
 
 .img-div {
-    text-align: center;
+  text-align: center;
 }
 
 .top-heading {
-    padding-top: 90px;
-    padding-bottom: 15px;
+  padding-top: 90px;
+  padding-bottom: 15px;
 }
 
 .top-text {
-    padding-left: 100px;
-    font-size: 16px;
-  
+  padding-left: 100px;
+  font-size: 16px;
 }
-.text{
-    margin-bottom:20px;
+.text {
+  margin-bottom: 20px;
 }
 .btn {
-    background-color: white;
-    border-radius: 20px;
-    border: none;
-    color: #002874;
-    padding: 8px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-top: 40px;
-    cursor: pointer;
+  background-color: white;
+  border-radius: 20px;
+  border: none;
+  color: #002874;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 40px;
+  cursor: pointer;
 }
 
 .btn:hover {
-    background-color: whitesmoke;
+  background-color: whitesmoke;
 }
 
 .top-img {
-    width: 600px;
-    padding-right: 10px;
-    padding-left: 220px;
-    height: 400px;
+  width: 600px;
+  padding-right: 10px;
+  padding-left: 220px;
+  height: 400px;
 }
 
 .hacklogo {
-    width: 130%;
-    height: 100%;
+  width: 130%;
+  height: 100%;
 }
 
 @media (max-width: 600px) {
-    .top-text {
-        font-size: 18px;
-    }
-    .top-heading {
-        font-size: 35px;
-    }
-    .top-img {
-        display: none
-    }
-    .img-div {
-        display: none !important;
-    }
-    .hacklogo {
-        max-width: 130%;
-    }
+  .top-text {
+    font-size: 18px;
+  }
+  .top-heading {
+    font-size: 35px;
+  }
+  .top-img {
+    display: none;
+  }
+  .img-div {
+    display: none !important;
+  }
+  .hacklogo {
+    max-width: 130%;
+  }
 }
 
 @media (max-width: 740px) {
-    .content-div {
-        margin-left: 5px;
-    }
-    .top-img {
-        width: 120%;
-        padding-left: 40px;
-        padding-right: 10px;
-    }
-    .btn {
-        color: blue;
-    }
-    .content-div {
-        text-align: center;
-    }
-    .top-heading {
-        padding-top: 0px;
-    }
-    .hacklogo {
-        max-width: 130%;
-    }
+  .content-div {
+    margin-left: 5px;
+  }
+  .top-img {
+    width: 120%;
+    padding-left: 40px;
+    padding-right: 10px;
+  }
+  .btn {
+    color: blue;
+  }
+  .content-div {
+    text-align: center;
+  }
+  .top-heading {
+    padding-top: 0px;
+  }
+  .hacklogo {
+    max-width: 130%;
+  }
 }
 
 @media screen and (min-width: 860px) and (max-width: 1100px) {
-    .top-img {
-        width: 120%;
-        padding-left: 150px;
-    }
-    .container {
-        width: 83%;
-    }
-    .hacklogo {
-        max-width: 130%;
-    }
+  .top-img {
+    width: 120%;
+    padding-left: 150px;
+  }
+  .container {
+    width: 83%;
+  }
+  .hacklogo {
+    max-width: 130%;
+  }
 }
 
 @media screen and (max-width: 860px) {
-    .top-heading {
-        padding-left: 0px;
-    }
-    .top-text {
-        padding-left: 20px;
-    }
-    .top-img {
-        width: 100%;
-        padding-right: 10px;
-        padding-left: 40px;
-    }
-    .hacklogo {
-        max-width: 110%;
-    }
+  .top-heading {
+    padding-left: 0px;
+  }
+  .top-text {
+    padding-left: 20px;
+  }
+  .top-img {
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 40px;
+  }
+  .hacklogo {
+    max-width: 110%;
+  }
 }
 /* @media screen and (min-width: 1100px) {
     .btn {
