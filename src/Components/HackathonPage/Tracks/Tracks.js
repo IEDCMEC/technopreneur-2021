@@ -14,11 +14,7 @@ const ProblemStatement = () => {
               className="track-img responsive-img"
               alt="track-vector"
             />
-            <p
-              style={{ textAlign: "center", fontSize: "22px", margin: "auto" }}
-            >
-              Women Empowerment
-            </p>
+            <p className="track-img-title">Women Empowerment</p>
           </div>
           <div className="track-text">description</div>
         </div>
@@ -29,11 +25,7 @@ const ProblemStatement = () => {
               className="track-img responsive-img"
               alt="track-vector"
             />
-            <p
-              style={{ textAlign: "center", fontSize: "22px", margin: "auto" }}
-            >
-              Open Innovation
-            </p>
+            <p className="track-img-title">Open Innovation</p>
           </div>
           <div className="track-text"> description</div>
         </div>
@@ -44,11 +36,7 @@ const ProblemStatement = () => {
               className="track-img responsive-img"
               alt="track-vector"
             />
-            <p
-              style={{ textAlign: "center", fontSize: "22px", margin: "auto" }}
-            >
-              Post Pandemic
-            </p>
+            <p className="track-img-title">Post Pandemic</p>
           </div>
           <div className="track-text"> description</div>
         </div>
