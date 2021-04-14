@@ -21,10 +21,6 @@ export function Landingpage(props) {
     setCurrentPage(number);
   }
 
-  const handleBeforePageChange = (number) => {
-    console.log(number);
-  }
-
   const [showScroll, setShowScroll] = useState(false);
 
   useEffect(()=>{
@@ -45,7 +41,6 @@ export function Landingpage(props) {
   useEffect(checkScrollTop, [currentPage]);
 
   const scrollTop = () =>{
-    console.log("hy")
     window.scrollTo({top: 0, behavior: 'smooth'});
     setCurrentPage(0);
   };
@@ -58,7 +53,6 @@ export function Landingpage(props) {
         </div>
         <ReactPageScroller
           pageOnChange={handlePageChange}
-          onBeforePageScroll={handleBeforePageChange}
           customPageNumber={currentPage}
           animationTimer={500}
           animationTimerBuffer={5}
