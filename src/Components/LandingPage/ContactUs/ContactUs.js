@@ -5,10 +5,8 @@ import upWaves from '../../../Assets/contactus-wave.png';
 const ContactUs = () => {
   return (
     <div>
-      <img src={upWaves} style={{position:"relative", top:30}} alt="wavedown"/>
+      <img src={upWaves} style={{position:"relative", top:0}} alt="wavedown"/>
     <div className="contact-container" id="contactUs">
-    
-      
           <div>
             <p className="headings contact-heading">CONTACT US</p>
           </div>

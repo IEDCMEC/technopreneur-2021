@@ -35,6 +35,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .aboutText {
@@ -59,7 +60,94 @@
     padding-bottom: 20px;
 }
 
-@media only screen and (max-width: 800px) {
+@media (max-width: 1630px) {
+    .aboutText {
+        font-size: 14px;
+    }
+
+    .card {
+        justify-content: center;
+        width: 30%;
+    }
+
+    #card-image {
+        width: 80%;
+    }
+}
+
+@media (max-width: 600px) {
+    .about-container {
+        flex-direction: column;
+    }
+
+    .aboutText {
+        font-size: 13px;
+    }
+
+    .card {
+        justify-content: center;
+        margin-top:15px;
+        flex-direction: row;
+        width: 70%;
+    }
+
+    #card-image {
+        width: 30%;
+    }
+}
+
+@media (max-width: 500px) {
+    .about-container {
+        flex-direction: column;
+    }
+
+    .aboutText {
+        font-size: 12px;
+    }
+
+    .card {
+        justify-content: center;
+        margin-top:15px;
+        flex-direction: row;
+        width: 70%;
+    }
+
+    #card-image {
+        width: 30%;
+    }
+}
+
+@media (max-width: 380px) {
+    .about-container {
+        flex-direction: column;
+    }
+
+    .aboutText {
+        font-size: 12px;
+    }
+
+    .card {
+        margin-top:15px;
+        flex-direction: row;
+        width: 70%;
+    }
+
+    #card-image {
+        width: 30%;
+    }
+
+    @media(max-height: 750px) {
+        .card {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 360px) {
+}
+
+
+/* @media only screen and (max-width: 800px) {
     .about-container {
         background-position: center;
         padding-top: 20%;
@@ -82,4 +170,4 @@
         font-size: 16px;
     }
     
-}
+} */
