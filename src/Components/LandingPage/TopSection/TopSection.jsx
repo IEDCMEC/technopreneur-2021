@@ -6,8 +6,11 @@ import { Navbar } from "../Navbar/Navbar";
 import { FaInstagram } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaTwitter }from 'react-icons/fa';
+import upWaves from '../../../Assets/topsection-wave.png';
+
 const TopSection = () => {
     return ( 
+        <div>
         <div id="home" className="top-container">
           
             <div data-aos="zoom-in-down" data-aos-duration="1000">
@@ -31,6 +34,8 @@ const TopSection = () => {
                 </div>
           </div>
             </div>
+        </div>
+        <img src={upWaves} style={{ position:"absolute", bottom:0}} className="wave-d" alt="wavedown"/>
         </div>
     )
 }
