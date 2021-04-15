@@ -3,6 +3,7 @@ import organizerImg from "../../../Assets/Organizing projects-cuate 1.png";
 import logo from "../../../Assets/technohacklogo.png";
 import "./TopSection.css";
 import Counter from "../Counter";
+import Typing from 'react-typing-animation';
 
 const TopSection = () => {
   React.useEffect(() => {
@@ -23,7 +24,13 @@ const TopSection = () => {
           <img src={logo} className="hackathon-logo" alt="TechnoHack" />
         </div>
         <div className="tagline">
-          <h2>Tag1 | Tag2 | tag3</h2>
+        <Typing >
+        <h3>Find . Execute . Validate . Profit</h3>
+  
+        </Typing>
+       
+
+        
         </div>
         <div className="image-container">
           <img src={organizerImg} className="image" alt="" />
@@ -36,7 +43,7 @@ const TopSection = () => {
         <div className="counter">
           <Counter date={`2021-05-24T00:00:00`} />
         </div>
-        <div className="apply-btn">
+        <div className="">
           <div
             className="apply-button"
             data-hackathon-slug="YOUR-HACKATHON-SLUG"

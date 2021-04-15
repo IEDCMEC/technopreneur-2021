@@ -18,7 +18,7 @@ export default function AboutComponent(props){
                     </p>  
                 </div>
                 
-                <div className="card">
+                <div className="card" >
                     {/* <div className="card-container"> */}
                         <img src={tieLogo} id="card-image" alt="tielogo"/>
                         <img src={iedcLogo} id="card-image" alt="ideclogo"/>

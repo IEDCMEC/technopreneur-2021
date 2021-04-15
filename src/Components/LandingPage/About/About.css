@@ -68,7 +68,7 @@
     padding-top: 30px;
     padding-right:10px;
     padding-left:10px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 @media (max-width: 1630px) {
@@ -96,7 +96,7 @@
 
     .card {
         justify-content: center;
-        margin-top:15px;
+        margin-top:25px;
         flex-direction: row;
         width: 70%;
     }
@@ -115,7 +115,7 @@
     }
 
     .card {
-        margin-top:15px;
+        margin-top:25px;
         flex-direction: row;
         width: 50%;
     }
@@ -135,7 +135,7 @@
 
     .card {
         justify-content: center;
-        margin-top:15px;
+        margin-top:25px;
         flex-direction: row;
         width: 70%;
     }

@@ -32,7 +32,7 @@ const ProblemStatement = () => {
               className="track-img responsive-img"
               alt="track-vector"
             />
-            <p className="track-img-title">Women Empowerment</p>
+            <p className="track-img-title">Women Empowerment</p>  
           </div>
           <div className="track-text">
             <b>Women Empowerment:</b> It is an on going global challenge to
