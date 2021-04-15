@@ -12,7 +12,8 @@ const TopSection = () => {
     return ( 
         <div>
         <div id="home" className="top-container">
-            <div>
+          
+            <div data-aos="zoom-in-down" data-aos-duration="1000">
                 <img src= {logo} alt="LOGO" className="logo"/>
             </div>
             <BrowserRouter>

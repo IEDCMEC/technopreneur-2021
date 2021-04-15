@@ -7,6 +7,7 @@ import Tracks from "../Components/HackathonPage/Tracks/Tracks";
 import Prizes from "../Components/HackathonPage/Prizes/Prizes";
 import Faqs from "../Components/HackathonPage/FAQ/Faq";
 import Sponsors from "../Components/HackathonPage/Sponsors/Sponsors";
+import ContactUs from "../Components/HackathonPage/ContactUs/ContactUs";
 
 export function Hackathonpage(props) {
   console.log("hello")
@@ -23,6 +24,8 @@ export function Hackathonpage(props) {
       <Prizes />
       <Faqs />
       <Sponsors />
+      <ContactUs />
+
     </div>
   );
 }

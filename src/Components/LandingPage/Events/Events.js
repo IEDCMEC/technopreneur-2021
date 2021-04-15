@@ -1,6 +1,5 @@
 import React from "react";
-import edit from "../../../Assets/comingsoon.png";
-import logo from "../../../Assets/technohacklogo.png"
+import logo from "../../../Assets/technohacklogo.png";
 import "./Events.css";
 import { Link } from "react-router-dom";
 import upWaves from '../../../Assets/events-wave.png';
@@ -24,7 +23,7 @@ const Events = () => {
           flexWrap: "wrap",
         }}
       >
-        <div className="event">
+        <div className="event event-card " >
           <img src={logo} alt="" className="eventImage"></img>
           <div className="eventButton">
             <Link to="/hackathon">
@@ -32,18 +31,14 @@ const Events = () => {
             </Link>
           </div>
         </div>
-        <div className="event">
-          <img src={edit} alt="Coming Soon" className="eventImage"></img>
-          <div className="eventButton">
-            {/* <button className="button button1">Register</button> */}
-          </div>
+        <div className="event event-card" >
+          <p className="coming-soon"> Coming Soon</p>
+
         </div>
 
-        <div className="event">
-          <img src={edit} alt="Coming Soon" className="eventImage"></img>
-          <div className="eventButton">
-            {/* <button className="button button1">Register</button> */}
-          </div>
+        <div className="event event-card" >
+          <p className="coming-soon"> Coming Soon</p>
+         
         </div>
       </div>
       
