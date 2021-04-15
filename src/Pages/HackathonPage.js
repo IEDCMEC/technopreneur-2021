@@ -10,6 +10,7 @@ import Sponsors from "../Components/HackathonPage/Sponsors/Sponsors";
 import ContactUs from "../Components/HackathonPage/ContactUs/ContactUs";
 
 export function Hackathonpage(props) {
+  console.log("hello")
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
