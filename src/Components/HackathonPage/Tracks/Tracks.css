@@ -1,11 +1,12 @@
 #tracks {
   background-color: #c8c8c8;
-  width: 88%;
+  width: 78%;
   margin-left: auto;
   margin-right: auto;
   padding: 4rem;
   border-radius: 3rem;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-top: 1.5rem;
 }
 .container-track {
   display: flex;
@@ -26,16 +27,22 @@
 
 .track-text {
   font-size: 22px;
-  margin: auto;
+
+  padding-left: 10rem;
+
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .track-img {
   width: 16rem;
-  height: 12rem;
+  height: 12.5rem;
 }
 .track-img-title {
-  font-size: 22px;
+  font-size: 20px;
   margin: auto;
+  white-space: nowrap;
+  text-align: center;
 }
 .track-heading {
   font-size: 40px;
@@ -43,31 +50,18 @@
 }
 
 @media (max-width: 600px) {
+  #tracks {
+    padding: 1rem;
+    text-align: center;
+  }
   .track-img {
     display: none;
   }
   .track-img-title {
     display: none;
   }
-  /* .row .col.m8 {
-    width: 80%;
-    margin-left: 0px;
-    margin: auto;
-  }
   .track-text {
-    font-size: 18px;
+    padding-right: 0;
+    padding-left: 0;
   }
-  .track-img {
-    display: none;
-  }
-  .container {
-    width: 83%;
-  }
-  .track-img-div {
-    display: none !important;
-  }
-  .row .col.m8 {
-    justify-content: center;
-    align-items: center;
-  } */
 }
