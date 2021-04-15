@@ -7,7 +7,6 @@ export default function AboutComponent(props){
 
     return(
         <div className = "about-container">  
-        <div>  
                 <div className="headerContent">
                     <p className="headings header">
                         About Us
@@ -19,7 +18,6 @@ export default function AboutComponent(props){
                     </p>  
                 </div>
                 
-                </div> 
                 <div className="card">
                     {/* <div className="card-container"> */}
                         <img src={tieLogo} id="card-image" alt="tielogo"/>

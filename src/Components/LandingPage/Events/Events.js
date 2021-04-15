@@ -27,7 +27,7 @@ const Events = () => {
         <div className="event">
           <img src={logo} alt="" className="eventImage"></img>
           <div className="eventButton">
-            <Link to="../../hackathon">
+            <Link to="/hackathon">
               <button className="button button1">Register</button>
             </Link>
           </div>

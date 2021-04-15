@@ -9,6 +9,7 @@ import Faqs from "../Components/HackathonPage/FAQ/Faq";
 import Sponsors from "../Components/HackathonPage/Sponsors/Sponsors";
 
 export function Hackathonpage(props) {
+  console.log("hello")
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
