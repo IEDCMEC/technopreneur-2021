@@ -8,10 +8,10 @@ function Router() {
   return (
     <BrowserRouter>
       <Switch>
+      <Route path="/hackathon" component={Hackathonpage} exact />
         <PageCounterProvider>
           <Route path="/" component={Landingpage} exact />
         </PageCounterProvider>
-        <Route path="/hackathon" component={Hackathonpage} exact />
       </Switch>
     </BrowserRouter>
   );
