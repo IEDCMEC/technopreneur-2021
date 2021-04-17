@@ -17,7 +17,7 @@ export const Navbar = () => {
                 EVENTS
             </li>
             <li onClick={() => setPage(3)} className="av-link" >
-                SPONSORS
+                PREVIOUS SPONSORS
             </li>
             <li onClick={() => setPage(4)} className="av-link" >
                 CONTACT
