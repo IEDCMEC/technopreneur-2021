@@ -11,7 +11,7 @@ const Sponsors = () => {
   return (
     <div>
       <div className="sponsor-container" id="sponsors">
-        <p className="headings partner-heading">Sponsors</p>
+        <p className="headings partner-heading">Previous Sponsors</p>
         <div className="partner-content">
           <div className="partner-row">
             <div id="first">
