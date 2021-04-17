@@ -9,7 +9,7 @@ const Events = () => {
     <div className="eve-container" id="events">
       <img src={upWaves} alt="wavedown"/>
       <div className="eve-heading">
-        <p className="headings eve-head">EVENTS</p>
+        <p className="headings eve-head">Events</p>
       </div>
       <div
         style={{

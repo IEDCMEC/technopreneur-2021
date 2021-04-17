@@ -14,30 +14,6 @@
     margin-right: auto;
 }
 
-.rocket-date {
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 2%;
-}
-.combine {
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    height: 100%;
-}
-.social_media {
-    font-size: 45px;    
-    margin-top: 10px;
-}
-
-.media_page {
-    margin-right: 20px;
-    color: #002874;
-}
 
 @media only screen and (max-width : 850px) {
     .social_media {
